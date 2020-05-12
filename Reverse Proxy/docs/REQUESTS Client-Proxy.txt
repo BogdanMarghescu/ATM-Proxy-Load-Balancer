@@ -1,0 +1,49 @@
+Logare:
+	send:	AUTH <username> <passsword>
+
+	recv:	AUTH 0
+			sau
+		AUTH 1
+		(0 - ok, 1 - eroare, user negasit)
+Creare user nou:
+	send:	CREATE_USER <username> <password>
+	
+	recv:	CREATE_USER 0
+			sau
+		CREATE_USER 1
+		(0 - ok, 1 - eroare, user deja existent)
+Logout:
+	send:	LOGOUT
+
+	recv:	LOGOUT
+
+
+Alegere algoritm:
+	send:	ALG 1
+			sau
+		ALG 2
+			sau
+		ALG 3
+			(1 = Round-Robin, 2 = Least connections, 3 = IP Hashing)
+			
+	recv:	ALG You selected algorithm <algNb>
+	
+	
+Trimitere task:
+	send:	TASK 1 op1	( factorial , op1 numarul)
+			sau	
+		TASK 2 op1 op2 ( putere.  , op1 numarul, op2 ordinul puterii)
+			sau
+		TASK 3 op1 op2 ( radacina , op1 numarul, op2 ordinul radacinii)
+	
+	recv: 	TASK Result of ... (from IP)
+
+Primire info:
+	send:	INFO
+	
+	recv:	INFO	IP Status Load Hits
+			IP Status Load Hits
+				    ...
+			IP Status Load Hits
+
+

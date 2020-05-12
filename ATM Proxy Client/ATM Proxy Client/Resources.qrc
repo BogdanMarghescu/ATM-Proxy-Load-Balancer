@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/Resources/images">
+        <file>Resources/images/ATMproxylogo.png</file>
+        <file>Resources/images/tech_background.png</file>
+    </qresource>
+</RCC>

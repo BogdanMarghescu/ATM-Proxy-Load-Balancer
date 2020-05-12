@@ -1,0 +1,38 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "clang++ build active file",
+            "command": "/usr/bin/clang++",
+            "args": [
+                "-g",
+                "-std=c++11",
+                "${file}",
+                "${fileDirname}/requests/requests_handler.cpp",
+                "${fileDirname}/requests/ID_Generator.cpp",
+                "${fileDirname}/requests/Request_Generator.cpp",
+                "${fileDirname}/requests/alg.cpp",
+                "${fileDirname}/requests/auth.cpp",
+                "${fileDirname}/requests/logout.cpp",
+                "${fileDirname}/requests/create_user.cpp",
+                "${fileDirname}/requests/info.cpp",
+                "${fileDirname}/algorithms/Algorithm_Generator.cpp",
+                "${fileDirname}/algorithms/round_robin.cpp",
+                "${fileDirname}/algorithms/ip_hashing.cpp",
+                "${fileDirname}/algorithms/least_connections.cpp",
+                "${fileDirname}/server.cpp",
+                "${fileDirname}/load_balancer.cpp",
+                "${fileDirname}/user.cpp",
+                "${fileDirname}/Logger.cpp",
+                "${fileDirname}/Base64.cpp",
+
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}"
+            ],
+            "options": {
+                "cwd": "/usr/bin"
+            }
+        }
+    ],
+    "version": "2.0.0"
+}

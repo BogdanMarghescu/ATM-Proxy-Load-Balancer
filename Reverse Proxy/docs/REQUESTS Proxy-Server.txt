@@ -1,0 +1,12 @@
+Trimitere task:
+	send:	<ID_Request> TASK 1 op1     ( factorial, op1 numarul)
+			sau
+		<ID_Request> TASK 2 op1 op2 ( putere , op1 numarul, op2 ordinul puterii)
+			sau
+		<ID_Request> TASK 3 op1 op2 ( radacina , op1 numarul, op2 ordinul radacinii)
+	
+	recv: 	<ID_Request> Result of ...
+Primire info:
+	send:	INFO
+	
+	recv:	INFO Status Load Hits

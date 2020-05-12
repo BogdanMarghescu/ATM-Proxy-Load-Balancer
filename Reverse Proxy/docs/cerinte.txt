@@ -1,0 +1,16 @@
+Cerinte (Load Balancer):
+
+
+1. Infographs (statistica privind nr de utilizatori, load-ul pe fiecare server, etc.)
+
+2. Subscription (trial, premium account)
+
+3. Schimbarea algoritmului de alegere a serverelor (3 algoritmi: Round-robin, Least connections, IP Hashing)
+
+4. Health Check
+
+5. Backup Server - for when a server is down
+
+6. Add or remove servers
+
+7. Implementarea unui WAF (Web Application Firewall - DDoS prevention, SQL injection, Slow Lorris)

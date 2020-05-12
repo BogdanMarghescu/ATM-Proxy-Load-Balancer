@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="atmproxy.cpp">
+      <Filter>Source Files\GUI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="mainmenuatmproxy.cpp">
+      <Filter>Source Files\GUI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Log.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ITcpClient.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="TcpClient.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="UserException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskGenerator.cpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskException.cpp">
+      <Filter>Source Files\Exceptions</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>Source Files\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerList.cpp">
+      <Filter>Source Files\Servers</Filter>
+    </ClCompile>
+    <ClCompile Include="ITask.cpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task.cpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task1.cpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task2.cpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="Task3.cpp">
+      <Filter>Source Files\Tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="ClientApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorialTask.cpp">
+      <Filter>Source Files\GUI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="PowerTask.cpp">
+      <Filter>Source Files\GUI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RootTask.cpp">
+      <Filter>Source Files\GUI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoTimer.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplyThread.cpp">
+      <Filter>Source Files\Threading</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{5157f1dc-d996-448a-844f-25af47a17a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tasks">
+      <UniqueIdentifier>{85da61e7-1612-4744-9900-2176e5aa0cbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Exceptions">
+      <UniqueIdentifier>{65077863-546f-4b62-8149-1010f857b795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI Classes">
+      <UniqueIdentifier>{d14a2bc6-9fea-47d5-8aa6-8d03c6429484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI Classes">
+      <UniqueIdentifier>{c525ac28-ea4b-4780-8b4c-f667d6e12d64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Client">
+      <UniqueIdentifier>{6a72dd62-5010-4e92-9fe5-e54389f79001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Exceptions">
+      <UniqueIdentifier>{6aec6d1b-ed7c-41c8-a8ef-69afbb14610d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Servers">
+      <UniqueIdentifier>{e0ad7b83-f669-48af-b642-9aefc4d0275e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tasks">
+      <UniqueIdentifier>{a3df1fbd-f935-4e68-a6a5-5985fda5ca91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Servers">
+      <UniqueIdentifier>{6b0e6a41-c780-48b5-bc2c-a3d6c12decc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Threading">
+      <UniqueIdentifier>{70536436-3297-44d2-8cf6-584f11efe702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Threading">
+      <UniqueIdentifier>{e2331b36-7ad7-442a-9596-5ed71a88cdc2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="atmproxy.h">
+      <Filter>Header Files\GUI Classes</Filter>
+    </QtMoc>
+    <QtMoc Include="mainmenuatmproxy.h">
+      <Filter>Header Files\GUI Classes</Filter>
+    </QtMoc>
+    <QtMoc Include="FactorialTask.h">
+      <Filter>Header Files\GUI Classes</Filter>
+    </QtMoc>
+    <QtMoc Include="PowerTask.h">
+      <Filter>Header Files\GUI Classes</Filter>
+    </QtMoc>
+    <QtMoc Include="RootTask.h">
+      <Filter>Header Files\GUI Classes</Filter>
+    </QtMoc>
+    <QtMoc Include="InfoTimer.h">
+      <Filter>Header Files\Threading</Filter>
+    </QtMoc>
+    <QtMoc Include="ReplyThread.h">
+      <Filter>Header Files\Threading</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="atmproxy.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="mainmenuatmproxy.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="FactorialTask.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="PowerTask.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="RootTask.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resources.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ATM Proxy Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="Exception.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="UserException.h">
+      <Filter>Header Files\Exceptions</Filter>
+    </ClInclude>
+    <ClInclude Include="ITask.h">
+      <Filter>Header Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task.h">
+      <Filter>Header Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task1.h">
+      <Filter>Header Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task2.h">
+      <Filter>Header Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Task3.h">
+      <Filter>Header Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskGenerator.h">
+      <Filter>Header Files\Tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>Header Files\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="ServerList.h">
+      <Filter>Header Files\Servers</Filter>
+    </ClInclude>
+    <ClInclude Include="ClientApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ITcpClient.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="TcpClient.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Header Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
